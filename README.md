@@ -4,7 +4,21 @@ commits/tags.
 
 ## Usage
 
-1. Create patch from Bitbucket PR's
+1. Build class files:
+
+   ```sh
+   $> ./build.sh
+   ```
+
+   
+
+2. Create patch from Bitbucket PR's
+
+   ```sh
+   $> ./PatchUp.sh
+   ```
+
+   
 
    ```
    ****************************************
