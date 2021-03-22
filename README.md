@@ -36,3 +36,28 @@ commits/tags.
            ./PatchUp.sh <Pull Request Num> <Pull Request Num>...
    ```
 
+3. Create patch from the diff of any commit/tag
+
+   ```sh
+   $> java PatchDiff
+   ```
+
+   ```
+   ****************************************
+   PatchDiff v1.0.0
+   ****************************************
+   Usage:
+     1. Compile the script:
+           $> javac PatchDiff.java
+     2. Execute it providing the commit to start from:
+           $> java PatchDiff <commit id>
+        Eg.:
+           $> java PatchDiff HEAD~3        <-- (3 commits back)
+           $> java PatchDiff dbad1         <-- (specific commit)
+           $> java PatchDiff rel-1.23      <-- (tag)
+   ```
+
+   
+
+---
+
